@@ -1,0 +1,173 @@
+html, body{
+    height: 100%;          
+    margin: 0;             
+}
+
+body {
+    background-image: url("aboutphotos/40_1.png");
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: rgb(242, 241, 237);
+}
+
+
+main {
+    flex: 1;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(113, 0, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  margin-top:-10px;
+  margin-bottom:-26px;
+}
+.logo img{
+    width: 50%;
+    height: 20%;
+    margin-top:-12px;
+    margin-bottom:-23px;
+    margin-right:-90px;
+    margin-left:-100px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.navbar a{
+    color: rgb(242, 241, 237);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a.active {
+    background-color: rgb(73, 0, 14);
+    
+}
+
+.navbar a:hover{
+    background-color:rgb(73, 0, 14) ;
+}
+.navbar li{
+    float: left;
+}
+
+
+.contact-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+}
+
+.contact-sub {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.contact-container {
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-card {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(113, 0, 20);
+    padding: 25px;
+    width: 260px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+    
+}
+
+.contact-card a {
+    color: rgb(255, 200, 200); 
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    color: rgb(255, 255, 255); 
+    text-decoration: underline;
+}
+
+.contact-card h3 {
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.contact-card p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
+.contactfooter {
+    background-color: rgb(113, 0, 20);  
+    padding: 25px 30px;
+    text-align: left;
+    color: rgb(242, 241, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contactfooter h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contactfooter p {
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+.contactfooter a {
+    color: rgb(242, 241, 237);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contactfooter a:hover {
+    text-decoration: underline;
+}

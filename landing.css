@@ -1,0 +1,311 @@
+@font-face {
+        font-family: "magazine";
+        src: url("font/magazine1.ttf") format("truetype");
+    }
+
+@font-face {
+        font-family: "schizo";
+        src: url("font/schizo.otf") format("opentype");
+    }
+
+@font-face {
+        font-family: "saint";
+        src: url("font/saint.otf") format("opentype");
+    }
+
+@font-face {
+        font-family: "modular";
+        src: url("font//modular.ttf") format("truetype");
+    }
+
+@font-face {
+        font-family: "vista";
+        src: url("font/REVISTA.ttf") format("truetype");
+    }
+    
+
+html, body{
+    height: 100%;          
+    margin: 0;             
+}
+
+body{
+    background-image: url("aboutphotos/try1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;         
+    flex-direction: column;
+    
+}
+
+main {
+    margin-top: 100px;
+    flex: 1 0 auto;
+}
+
+.navbar {
+    background-color: rgb(113, 0, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  margin-top:-10px;
+  margin-bottom:-26px;
+}
+.logo img{
+    width: 50%;
+    height: 20%;
+    margin-top:-12px;
+    margin-bottom:-23px;
+    margin-right:-90px;
+    margin-left:-100px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.navbar a{
+    color: rgb(242, 241, 237);
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a.active {
+    background-color: rgb(73, 0, 14);
+    
+}
+
+.navbar a:hover{
+    background-color:rgb(73, 0, 14) ;
+}
+.navbar li{
+    float: left;
+}
+
+
+.heading{
+    font-family:"vista";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 95px;
+    text-shadow:
+    2px 2px 0 #332f2f,
+    4px 4px 0 #2f2b2b,
+    
+    
+}
+
+.info {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.text {
+    padding: 40px;
+    margin: 20px auto;
+    
+}
+
+.text1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text2 {
+    text-align: ce;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#home {
+    color: rgb(242, 241, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    margin: 40px auto;
+    max-width: 800px;
+
+    background-color: rgb(113, 0, 20);
+    padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.headbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: rgb(242, 241, 237);
+    
+}
+
+.leftside {
+    flex: 1;
+    text-align: left;
+    text-align: justify;
+    text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+}
+
+.box1  {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-align: center;
+    color: rgb(242, 241, 237);
+    font-size: 25px;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.box2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(242, 241, 237);
+    font-size: 25px;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.button {
+    position: relative;
+    top: 15px; 
+    background-color: white;
+    border-radius: 15px;
+    color:rgb(133, 0, 0);
+    margin-left:110px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover {
+    background-color: rgb(73, 0, 14);
+    color:rgb(242, 241, 237);
+    
+
+}
+
+.homepic {
+    position: relative;
+    top: -20px; 
+    width: 400px;
+    border-radius: 30px;
+
+}
+
+.galleryphoto {
+     width: 90%;
+     border-radius: 20px;
+     box-shadow: 0px 4px 20px rgba(0,0,0,0.6);
+}
+
+.galleryphoto2 {
+     width: 50%;  
+}
+
+.box2  {
+    display: flex;
+    align-items: center; 
+    gap: 40px; 
+    padding: 40px;
+}
+
+.box2 img {
+     width: 450px; 
+    border-radius: 2px;
+}
+
+
+.box2 a {
+    color: rgb(193, 108, 108); 
+    text-decoration: none;
+}
+
+.box2 a:hover {
+    color: rgb(112, 25, 25); 
+    text-decoration: underline;
+}
+.galarty {
+    display: grid;
+    gap: 40px;
+    width: 38%;
+    margin: 50px auto;
+}
+
+
+.galarty img {
+    gap: 40px;
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.6);
+}
+
+
+
+.galdeschead {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(242, 241, 237);
+    margin-top: 15px;
+    font-size: 50px;
+    text-align:center;
+    text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+}
+
+
+.galdesc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(242, 241, 237);
+    margin-top: 15px;
+    font-size: 20px;
+    text-align:center;
+}
+
+.contactfooter {
+    flex-shrink: 0;
+    background-color: rgb(113, 0, 20);  
+    padding: 25px 30px;
+    text-align: left;
+    color: rgb(242, 241, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contactfooter h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contactfooter p {
+    font-size: 17px;
+    margin: 8px 0;
+}
+
+.contactfooter a {
+    color: rgb(242, 241, 237);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contactfooter a:hover {
+    text-decoration: underline;
+}
