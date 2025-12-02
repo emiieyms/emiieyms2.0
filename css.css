@@ -33,6 +33,7 @@ body{
     background-image: url("aboutphotos/Bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     display: flex;         
     flex-direction: column;
     
